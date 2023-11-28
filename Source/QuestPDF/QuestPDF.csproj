@@ -23,14 +23,14 @@
     https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
     https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-framework
     -->
-    <TargetFrameworks>net48;netstandard2.0;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net48;netstandard2.0;net6.0;net8.0</TargetFrameworks>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SkiaSharp" Version="2.88.5" />
-    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.5" />
-    <PackageReference Include="System.Net.Http.Json" Version="7.0.1" />
+    <PackageReference Include="SkiaSharp" Version="2.88.6" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="2.88.6" />
+    <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
